@@ -1,0 +1,30 @@
+PCAD Importer Log
+Project : FSMRA6JH.LibPkg
+
+Section : C:\Users\shantanu\Desktop\Flow\Altium\toilet-sensing-v0.1\libraries\FSMRA6JH.lia
+    Section : PCB Library - FSMRA6JH.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token FSMRA6JH On Line 159
+            Warning - 1 : Skipping Token attachedSymbol On Line 230
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [TE_FSMRA6JH][Primary] associated with PCAD Component [FSMRA6JH] has been renamed to PCB FootPrint [TE_FSMRA6JH_FSMRA6JH(Primary)].
+        EndSection
+    EndSection
+
+    Section : SCH Library - FSMRA6JH.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token padStyleDef On Line 33
+            Warning - 1 : Skipping Token multiLayer On Line 108
+            Warning - 1 : Skipping Token layerContents On Line 114
+            Warning - 1 : Skipping Token layerContents On Line 143
+        EndSection
+
+        Section : Generating SCH Library - FSMRA6JH.SchLib
+            Warning - 0 : PCAD Pattern Graphics [TE_FSMRA6JH][Primary] associated with PCAD Component [FSMRA6JH] has been renamed to PCB FootPrint [TE_FSMRA6JH_FSMRA6JH(Primary)].
+        EndSection
+    EndSection
+EndSection

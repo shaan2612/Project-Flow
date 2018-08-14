@@ -1,0 +1,44 @@
+Altium Designer Pick and Place Locations
+C:\Users\farshid\Downloads\REV_4\REV_4\toilet-tank-v0.1\Project Outputs for toilet-sensing-v0.1\Pick Place for FlowSense-RX.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10/08/18
+Time:       18:13
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                   Layer    Footprint               Center-X(mil) Center-Y(mil) Rotation Description                                                            
+D1         "Diode - Zener"           TopLayer SOD-523                 1853.100      1888.400      270      "Diode - Zener"                                                        
+""         "FSMSM _1437566-3_"       TopLayer TE_FSMSM                1906.309      1775.800      180      "FSMSM=3.5X6 SMT TACT"                                                 
+BUZZER     MCKPM-G1201A-K4037        TopLayer XDCR_MCKPM-G1201A-K4037 1595.000      1660.000      90       "Magnetic Buzzer And Transducer"                                       
+UART       MHDR1X2                   TopLayer MHDR1X2                 1435.000      1045.000      180      "Header, 2-Pin"                                                        
+Rl2        Res                       TopLayer 0402                    2135.000      1620.000      90       "Chip Resistor (Surface Mount)"                                        
+Rl1        Res                       TopLayer 0402                    2080.000      1620.000      90       "Chip Resistor (Surface Mount)"                                        
+Rj         Res                       TopLayer 0402                    1625.315      1465.000      180      "Chip Resistor (Surface Mount)"                                        
+D3         SML-311UTT86              TopLayer 0603                    2135.000      1525.000      270      "LED 630NM RED WTR CLR 0603 SMD"                                       
+D2         SML-311UTT86              TopLayer 0603                    2080.000      1525.000      270      "LED 630NM RED WTR CLR 0603 SMD"                                       
+CB         Cap                       TopLayer 0402-W                  2095.590      1440.000      180      "Ceramic Capacitor (Surface Mount)"                                    
+CA         Cap                       TopLayer 0402-W                  2095.000      1390.000      180      "Ceramic Capacitor (Surface Mount)"                                    
+C11        Cap                       TopLayer 0402-W                  2095.000      1340.000      180      "Ceramic Capacitor (Surface Mount)"                                    
+C4         Cap                       TopLayer 0402-W                  1345.000      1124.409      90       "Ceramic Capacitor (Surface Mount)"                                    
+U4         TPS709                    TopLayer SOT95P280X145-5N        1235.000      1105.000      0        "Ultra low power Voltage Regulator"                                    
+U7         BC857BS-7-F               TopLayer SOT65P210X100-6N        1623.000      1884.000      0        "BC857BS Series PNP 45 V 200 mW Small Signal Transistor SMT - SOT-363" 
+U5         MAX16054AZTT              TopLayer 21-0114C                1884.000      1065.000      180      "On/Off Controller With Debounce And +/-1"                             
+SW1        "FSMSM _1437566-3_"       TopLayer TE_FSMSM                1905.000      1225.000      360      "FSMSM=3.5X6 SMT TACT"                                                 
+U2         LTC1154HS8TRPBF           TopLayer SOIC-8_S                1520.000      1230.000      360      "IC MOSFET DRIVER HIGH-SIDE 8SOIC"                                     
+SOL        "Header 2"                TopLayer HDR1X2                  2035.000      1925.000      180      "Header, 2-Pin"                                                        
+R5         R_Pullup_1                TopLayer 0402                    1315.315      1210.000      180      "Chip Resistor (Surface Mount)"                                        
+R4         R_Pullup_1                TopLayer 0402                    1710.315      1960.000      180      "Chip Resistor (Surface Mount)"                                        
+D4         Diode                     TopLayer DIODE_-_SOD123          1845.000      1940.000      360      "General Purpose Diode"                                                
+C5         Cap                       TopLayer 0402-W                  1620.591      1955.000      360      "Ceramic Capacitor (Surface Mount)"                                    
+JTAG       MHDR1X4                   TopLayer MHDR1X4                 1620.000      1045.000      180      "Header, 4-Pin"                                                        
+U3         TPS709                    TopLayer SOT95P280X145-5N        1170.000      1290.000      360      "Ultra low power Voltage Regulator"                                    
+U1         "MSP430 Wolverine 48-Pin" TopLayer MSP_QFN48_RGZ_PAD0      1840.000      1525.000      270      "16-bit FRAM MCU"                                                      
+SP1ML      SP1ML-868                 TopLayer STM_SP1ML-868           1270.000      1680.000      90       "RF TXRX MODULE ISM<1GHZ CHIP ANT"                                     
+PIN        "Header 2"                TopLayer HDR1X2                  1055.000      1110.000      90       "Header, 2-Pin"                                                        
+C3         Cap                       TopLayer 0402-W                  1060.000      1300.591      90       "Ceramic Capacitor (Surface Mount)"                                    
+C2         Cap                       TopLayer 0402-W                  1315.000      1330.000      180      "Ceramic Capacitor (Surface Mount)"                                    
+C1         Cap                       TopLayer 0402-W                  1020.000      1300.000      90       "Ceramic Capacitor (Surface Mount)"                                    

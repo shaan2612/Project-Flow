@@ -1,0 +1,29 @@
+PCAD Importer Log
+Project : 2-1825027-0.LibPkg
+
+Section : C:\Users\shantanu\Desktop\Flow\Altium\toilet-sensing-v0.1\libraries\2-1825027-0.lia
+    Section : PCB Library - 2-1825027-0.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token 2-1825027-0 On Line 135
+            Warning - 1 : Skipping Token attachedSymbol On Line 210
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [TE_2-1825027-0][Primary] associated with PCAD Component [2-1825027-0] has been renamed to PCB FootPrint [TE_2-1825027-0_2-1825027-0(Primary)].
+        EndSection
+    EndSection
+
+    Section : SCH Library - 2-1825027-0.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 102
+            Warning - 1 : Skipping Token layerContents On Line 108
+        EndSection
+
+        Section : Generating SCH Library - 2-1825027-0.SchLib
+            Warning - 0 : PCAD Pattern Graphics [TE_2-1825027-0][Primary] associated with PCAD Component [2-1825027-0] has been renamed to PCB FootPrint [TE_2-1825027-0_2-1825027-0(Primary)].
+        EndSection
+    EndSection
+EndSection

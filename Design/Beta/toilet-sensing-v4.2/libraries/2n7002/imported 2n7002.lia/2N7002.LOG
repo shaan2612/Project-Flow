@@ -1,0 +1,25 @@
+PCAD Importer Log
+Project : 2N7002.LibPkg
+
+Section : C:\Users\shantanu\Desktop\Flow\Altium\toilet-sensing-v0.1\libraries\2N7002\2N7002.lia
+    Section : PCB Library - 2N7002.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token IGFET-EN-GDS On Line 117
+            Warning - 1 : Skipping Token attachedSymbol On Line 181
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - 2N7002.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 89
+        EndSection
+
+        Section : Generating SCH Library - 2N7002.SchLib
+        EndSection
+    EndSection
+EndSection

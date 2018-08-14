@@ -1,0 +1,30 @@
+PCAD Importer Log
+Project : MLL1200S.LibPkg
+
+Section : C:\Users\shantanu\Desktop\Flow\Altium\toilet-sensing-v0.1\libraries\MLL1200S.lia
+    Section : PCB Library - MLL1200S.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token MLL1200S On Line 149
+            Warning - 1 : Skipping Token attachedSymbol On Line 256
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [SW_MLL1200S][Primary] associated with PCAD Component [MLL1200S] has been renamed to PCB FootPrint [SW_MLL1200S_MLL1200S(Primary)].
+        EndSection
+    EndSection
+
+    Section : SCH Library - MLL1200S.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 20
+            Warning - 1 : Skipping Token padStyleDef On Line 32
+            Warning - 1 : Skipping Token multiLayer On Line 107
+            Warning - 1 : Skipping Token layerContents On Line 118
+            Warning - 1 : Skipping Token layerContents On Line 137
+        EndSection
+
+        Section : Generating SCH Library - MLL1200S.SchLib
+            Warning - 0 : PCAD Pattern Graphics [SW_MLL1200S][Primary] associated with PCAD Component [MLL1200S] has been renamed to PCB FootPrint [SW_MLL1200S_MLL1200S(Primary)].
+        EndSection
+    EndSection
+EndSection

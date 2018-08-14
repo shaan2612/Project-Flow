@@ -1,0 +1,25 @@
+PCAD Importer Log
+Project : SP1ML-868.LibPkg
+
+Section : C:\Users\shantanu\Desktop\Flow\Altium\toilet-sensing-v0.1\libraries\SP1ML-868.lia
+    Section : PCB Library - SP1ML-868.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token SP1ML-868 On Line 124
+            Warning - 1 : Skipping Token attachedSymbol On Line 310
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - SP1ML-868.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 102
+        EndSection
+
+        Section : Generating SCH Library - SP1ML-868.SchLib
+        EndSection
+    EndSection
+EndSection

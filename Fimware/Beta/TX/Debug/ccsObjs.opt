@@ -1,0 +1,1 @@
+"./adc.obj" "./algorithm.obj" "./main.obj" "./timer.obj" "../lnk_msp430fr5969.cmd" -llibmath.a -llibc.a 

@@ -1,0 +1,53 @@
+Altium Designer Pick and Place Locations
+C:\Users\farshid\Downloads\REV_4\REV_4\toilet-sensing-v0.1\Project Outputs for toilet-sensing-v0.1\Pick Place for FlowSense-TX.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       10/08/18
+Time:       18:11
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment                   Layer    Footprint              Center-X(mil) Center-Y(mil) Rotation Description                                
+Rl5        Res                       TopLayer 0402                   1706.800      1109.000      270      "Chip Resistor (Surface Mount)"            
+R13        Res                       TopLayer 0402                   1839.000      1107.100      360      "Chip Resistor (Surface Mount)"            
+Ct         Cap                       TopLayer 0402-W                 1786.300      1047.600      0        "Ceramic Capacitor (Surface Mount)"        
+SW1        "FSMSM _1437566-3_"       TopLayer TE_FSMSM               1901.591      1726.200      180      "FSMSM=3.5X6 SMT TACT"                     
+RST        Res                       TopLayer 0402                   1614.700      1234.600      270      "Chip Resistor (Surface Mount)"            
+U6         MAX16054AZTT              TopLayer 21-0114C               1231.600      1078.400      360      "On/Off Controller With Debounce And +/-1" 
+SW2        "FSMSM _1437566-3_"       TopLayer TE_FSMSM               1899.900      1219.900      360      "FSMSM=3.5X6 SMT TACT"                     
+UART       MHDR1X2                   TopLayer MHDR1X2                1594.200      1660.400      270      "Header, 2-Pin"                            
+U2         LTC6906                   TopLayer 6-Lead_Plastic_TSOT-23 1538.400      1085.400      360      "LP Oscilloter"                            
+SOUT       "Header 2"                TopLayer HDR1X2                 2051.000      1073.700      180      "Header, 2-Pin"                            
+SIN        "Header 2"                TopLayer HDR1X2                 2058.100      1951.500      360      "Header, 2-Pin"                            
+Rs         Res                       TopLayer 0402                   1885.400      1976.000      360      "Chip Resistor (Surface Mount)"            
+Rset       Res                       TopLayer 0402                   1670.115      1043.800      180      "Chip Resistor (Surface Mount)"            
+Rrect      Res                       TopLayer 0402                   2142.800      1853.300      90       "Chip Resistor (Surface Mount)"            
+Rl2        Res                       TopLayer 0402                   2142.000      1419.300      270      "Chip Resistor (Surface Mount)"            
+Rl1        Res                       TopLayer 0402                   2070.700      1442.400      180      "Chip Resistor (Surface Mount)"            
+Rgrd       Res                       TopLayer 0402                   1657.100      1131.000      90       "Chip Resistor (Surface Mount)"            
+Rf2        Res                       TopLayer 0402                   1885.915      1883.400      360      "Chip Resistor (Surface Mount)"            
+Rf1        Res                       TopLayer 0402                   1885.915      1928.800      180      "Chip Resistor (Surface Mount)"            
+Rdiv2      Res                       TopLayer 0402                   1407.600      1040.800      360      "Chip Resistor (Surface Mount)"            
+Rdiv1      Res                       TopLayer 0402                   1409.085      1084.500      360      "Chip Resistor (Surface Mount)"            
+JTAG       MHDR1X4                   TopLayer MHDR1X4                1594.000      1472.500      90       "Header, 4-Pin"                            
+D3         SML-311UTT86              TopLayer 0603                   2139.000      1513.800      90       "LED 630NM RED WTR CLR 0603 SMD"           
+D2         SML-311UTT86              TopLayer 0603                   2077.000      1513.000      90       "LED 630NM RED WTR CLR 0603 SMD"           
+D1         Diode                     TopLayer DIODE_-_SOD123         2031.000      1852.100      0        "General Purpose Diode"                    
+Cs         Cap                       TopLayer 0402-W                 1892.600      1834.200      360      "Ceramic Capacitor (Surface Mount)"        
+Crect      Cap                       TopLayer 0402-W                 2104.609      1786.000      180      "Ceramic Capacitor (Surface Mount)"        
+Cload      Cap                       TopLayer 0402-W                 1923.300      1073.400      270      "Ceramic Capacitor (Surface Mount)"        
+CB         Cap                       TopLayer 0402-W                 2097.700      1353.500      180      "Ceramic Capacitor (Surface Mount)"        
+CA         Cap                       TopLayer 0402-W                 2098.409      1315.700      180      "Ceramic Capacitor (Surface Mount)"        
+C11        Cap                       TopLayer 0402-W                 2096.000      1634.700      180      "Ceramic Capacitor (Surface Mount)"        
+C4         Cap                       TopLayer 0402-W                 1609.909      1324.200      360      "Ceramic Capacitor (Surface Mount)"        
+U4         TPS709                    TopLayer SOT95P280X145-5N       1467.500      1270.900      0        "Ultra low power Voltage Regulator"        
+U3         TPS709                    TopLayer SOT95P280X145-5N       1170.000      1290.000      360      "Ultra low power Voltage Regulator"        
+U1         "MSP430 Wolverine 48-Pin" TopLayer MSP_QFN48_RGZ_PAD0     1859.100      1486.800      270      "16-bit FRAM MCU"                          
+SP1ML      SP1ML-868                 TopLayer STM_SP1ML-868          1270.000      1680.000      90       "RF TXRX MODULE ISM<1GHZ CHIP ANT"         
+PIN        "Header 2"                TopLayer HDR1X2                 1075.200      1118.500      90       "Header, 2-Pin"                            
+C3         Cap                       TopLayer 0402-W                 1060.000      1294.409      90       "Ceramic Capacitor (Surface Mount)"        
+C2         Cap                       TopLayer 0402-W                 1285.000      1300.000      90       "Ceramic Capacitor (Surface Mount)"        
+C1         Cap                       TopLayer 0402-W                 1344.400      1285.000      270      "Ceramic Capacitor (Surface Mount)"        
