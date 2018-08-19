@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=VCC_5 Pin=BUZZER-1
+Removed Pin From Net: NetName=GND Pin=U7-1
+Removed Pin From Net: NetName=NetR4_1 Pin=U7-4
+Removed Pin From Net: NetName=NetD1_1 Pin=U7-6
+Change Component Designator: OldDesignator= NewDesignator=SW2
+Added Pin To Net: NetName=GND Pin=BUZZER-2
+Added Pin To Net: NetName=NetR4_1 Pin=U7-3
+Added Pin To Net: NetName=NetD1_1 Pin=U7-4
+Added Pin To Net: NetName=VCC_5 Pin=U7-6
+Added Pin To Net: NetName=NetBUZZER_1 Pin=BUZZER-1
+Added Pin To Net: NetName=NetBUZZER_1 Pin=U7-1
+Added Net: Name=NetBUZZER_1
+Added Member To Class: ClassName=MSP430 Member=Component SW2 FSMSM _1437566-3_
+Added Room: Name=MSP430
+Added Room: Name=peripheral

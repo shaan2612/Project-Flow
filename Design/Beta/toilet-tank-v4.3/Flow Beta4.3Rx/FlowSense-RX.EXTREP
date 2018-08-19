@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: FlowSense-RX.GBR   8/18/2018  5:56:16 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                L1                                      
+.GTP                Top Paste                               
+.GBS                Bottom Solder                           
+.GTS                Top Solder                              
+.GPT                Top Pad Master                          
+.GBP                Bottom Paste                            
+.GTO                Top Overlay                             
+.GBO                Bottom Overlay                          
+.GKO                Keep-Out Layer                          
+.GM1                Mechanical 1                            
+.GM13               Mechanical 13                           
+.GM16               Mechanical 16                           
+.GPB                Bottom Pad Master                       
+.GM34               Mechanical 34                           
+.GM8                Mechanical 8                            
+.GML                Multi-Layer                             
+.1                  Core                                    
+.GM15               Mechanical 15                           
+.GM32767            Route Guide                             
+.GM29               Mechanical 29                           
+.GM4                Mechanical 4                            
+.GBL                L2                                      
+------------------------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [toilet-sensing-v0.1.PrjPcb]
+   Generated File[FlowSense-RX.TXT]
+   Generated File[FlowSense-RX.LDP]
+   Generated File[FlowSense-RX.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 4:30:02 PM On 8/2/2018
