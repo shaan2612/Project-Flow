@@ -31,6 +31,8 @@
 							<tool id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exe.compilerDebug.204177264" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exe.compilerDebug">
 								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.compilerID.DEFINE.1882753610" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.compilerID.DEFINE" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__MSP430FR5969__"/>
+									<listOptionValue builtIn="false" value="_IPE_ENABLE"/>
+									<listOptionValue builtIn="false" value="_MPU_ENABLE"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.compilerID.DATA_MODEL.520489931" name="Specify the data memory model. (--data_model)" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.compilerID.DATA_MODEL" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.MSP430_17.3.compilerID.DATA_MODEL.restricted" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.compilerID.ADVICE__HW_CONFIG.1669748134" name="Check hardware configuration settings for device. (--advice:hw_config)" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.compilerID.ADVICE__HW_CONFIG" useByScannerDiscovery="false" value="all" valueType="string"/>
@@ -60,6 +62,8 @@
 							<tool id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exe.linkerDebug.2120016969" name="MSP430 Linker" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exe.linkerDebug">
 								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.LIBRARY.1212773369" name="Include library file or command file as input (--library, -l)" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="libmath.a"/>
+									<listOptionValue builtIn="false" value="libipe_init.a"/>
+									<listOptionValue builtIn="false" value="libmpu_init.a"/>
 									<listOptionValue builtIn="false" value="libc.a"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.SEARCH_PATH.653003653" name="Add &lt;dir&gt; to library search path (--search_path, -i)" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.SEARCH_PATH" valueType="libPaths">
@@ -79,6 +83,10 @@
 								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.XML_LINK_INFO.1993398348" name="Detailed link information data-base into &lt;file&gt; (--xml_link_info, -xml_link_info)" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.XML_LINK_INFO" useByScannerDiscovery="false" value="&quot;${ProjName}_linkInfo.xml&quot;" valueType="string"/>
 								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.DISPLAY_ERROR_NUMBER.32161035" name="Emit diagnostic identifier numbers (--display_error_number)" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.DIAG_WRAP.528307788" name="Wrap diagnostic messages (--diag_wrap)" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.DIAG_WRAP" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.DIAG_WRAP.off" valueType="enumerated"/>
+								<option id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.DEFINE.1789334004" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.linkerID.DEFINE" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_IPE_ENABLE"/>
+									<listOptionValue builtIn="false" value="_MPU_ENABLE"/>
+								</option>
 								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exeLinker.inputType__CMD_SRCS.2101026886" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exeLinker.inputType__CMD_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exeLinker.inputType__CMD2_SRCS.1854584220" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exeLinker.inputType__CMD2_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exeLinker.inputType__GEN_CMDS.1370499210" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.MSP430_17.3.exeLinker.inputType__GEN_CMDS"/>
@@ -89,6 +97,9 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>

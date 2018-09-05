@@ -252,6 +252,7 @@ void monitor(void){
             while (!UART_TX_READY);
             UCA0TXBUF = 'O';                     // Stop ACT
             while (!UART_TX_DONE);
+            __delay_cycles(1000000);
                         P1OUT ^= BIT4;
             overflowTime = overflowTime +1;
             if (overflowTime > overflow_maxtime){
