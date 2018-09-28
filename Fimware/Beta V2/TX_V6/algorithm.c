@@ -203,34 +203,34 @@ void calibration(void) {
         P3OUT &= ~(BIT0 |BIT1);
         __delay_cycles(10000000);
 
-// Debug LEDS
-        while(flush == 0) {
-                   P3OUT |= BIT0 |BIT1;
-               }
-               if ((flush == 1) || (flush > 2)) {
-                          P3OUT |= BIT1;
-                          __delay_cycles(10000000);
-                          P3OUT &= ~BIT1;
-                          __delay_cycles(10000000);
-               }
-               else if (flush == 2) {
-                          P3OUT |= BIT0;
-                          __delay_cycles(10000000);
-                          P3OUT &= ~BIT0;
-                          __delay_cycles(10000000);
-               }
-
-               if ((flush_value < (base+125)) && (base < (adcval+60))) {
-                       P3OUT |= BIT0;
-                       __delay_cycles(10000000);
-                       P3OUT &= ~BIT0;
-                       __delay_cycles(10000000);
-                       }
-                       else { P3OUT |= BIT1;
-                       __delay_cycles(10000000);
-                       P3OUT &= ~BIT1;
-                       __delay_cycles(10000000);
-                       }
+//// Debug LEDS
+//        while(flush == 0) {
+//                   P3OUT |= BIT0 |BIT1;
+//               }
+//               if ((flush == 1) || (flush > 2)) {
+//                          P3OUT |= BIT1;
+//                          __delay_cycles(10000000);
+//                          P3OUT &= ~BIT1;
+//                          __delay_cycles(10000000);
+//               }
+//               else if (flush == 2) {
+//                          P3OUT |= BIT0;
+//                          __delay_cycles(10000000);
+//                          P3OUT &= ~BIT0;
+//                          __delay_cycles(10000000);
+//               }
+//
+//               if ((flush_value < (base+125)) && (base < (adcval+60))) {
+//                       P3OUT |= BIT0;
+//                       __delay_cycles(10000000);
+//                       P3OUT &= ~BIT0;
+//                       __delay_cycles(10000000);
+//                       }
+//                       else { P3OUT |= BIT1;
+//                       __delay_cycles(10000000);
+//                       P3OUT &= ~BIT1;
+//                       __delay_cycles(10000000);
+//                       }
 
         timer_start(1000);
         calb=1;
@@ -241,9 +241,11 @@ void calibration(void) {
 
 void monitor(void){
     int i;
+    P1OUT &= ~(BIT4);
     current_value = (current_value_thres*current_value + new_value_thres*adcval);
     switch (STATE) {
         case 0:
+            P1OUT &= ~(BIT4);
             P3OUT = 0;
             if (current_value > base_threshold) {
                 STATE = 1;
@@ -251,6 +253,7 @@ void monitor(void){
             }
             break;
         case 1:
+            P1OUT &= ~(BIT4);
             P3OUT = 0;
             if (current_value > flush_value) {
                 STATE = 2;
@@ -262,7 +265,7 @@ void monitor(void){
             }
             break;
         case 2:
-            P1OUT &= ~(BIT4);
+            P1OUT |= BIT4;
             P3OUT ^= BIT1;
             overflowTime = overflowTime +1;
             if (overflowTime > overflow_maxtime){
@@ -291,7 +294,7 @@ void monitor(void){
             P3OUT = BIT1;
             //send to the rx board
             UCA0TXBUF = 'U';                     // Buzz, Overflow
-            __delay_cycles(1000);      // Just to prevent any lockup/junk/erroneous behavior
+           __delay_cycles(1000);      // Just to prevent any lockup/junk/erroneous behavior
             break;
     }
 }

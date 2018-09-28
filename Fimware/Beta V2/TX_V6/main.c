@@ -33,7 +33,7 @@ int main(void)
     P1OUT &= ~(BIT4 | BIT5);
     P1DIR |= BIT4 | BIT5;                        //Bit 4 RFSD, Bit 5 Mode0
     P1OUT |= BIT5 | BIT4;                              // Transmit Mode RF, set power up
-    P1OUT &= BIT4;                              //  RF - OFF
+    P1OUT |= BIT4;                              //  RF - OFF
 
     P2SEL1 |= BIT0 | BIT1;                    // USCI_A0 UART operation
     P2SEL0 &= ~(BIT0 | BIT1);

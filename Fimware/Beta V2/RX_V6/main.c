@@ -86,13 +86,13 @@ __interrupt void Timer_A (void)
 {
 
     if (k == 1){
-     P3OUT &= ~BIT1;    // DEbug LED
+     //P3OUT &= ~BIT1;    // DEbug LED
      P1OUT &= ~BIT4;   //OFF RF
      TA0CCR0 = 1250-1; //1000ms
      k = 0;
     }
     else {
-     P3OUT |= BIT1;    // DEbug LED
+     // P3OUT |= BIT1;    // DEbug LED
      P1OUT |= BIT4;   //ON RF
      TA0CCR0 = 80-1; //64ms
      k = 1;
